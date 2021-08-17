@@ -1,0 +1,38 @@
+struct Stu//struct-结构体关键字，Stu-结构体标签	struct Stu--结构体类型
+{
+	char name[20];
+	short age;
+	char tel[12];
+	char sex[5];
+}s1,s2,s3;//s1,s2,s3;三个全局的结构体变量
+
+typedef struct Stu
+{
+	char name[20];
+	short age;
+	char tel[12];
+	char sex[5];
+}Stu;//typedef的作用是将结构体名称改为Stu
+
+int main()
+{
+	struct Stu s1 = {"张三",20,"12345678998","男"};
+	Stu s2 = {"李四",30,"98765432100","男"};
+	return 0;
+}
+
+
+struct s
+{
+	int a;
+	char c;
+	char arr[20];
+	double d;
+};
+
+struct T
+{
+	char ch[10];
+	struct s s;
+	char* pc;
+};
