@@ -1,0 +1,34 @@
+(*(void (*)())0)();
+把0强制类型转换成一个函数指针void (*)(),调用0地址处的函数
+
+
+void (*signal(int,void(*)(int)))(int)
+声明：函数名signal,两个参数为int和函数指针void(*)(int)，
+返回值为一个函数指针：void (*      )(int)
+参数int,返回值void
+
+
+void (*signal(int, void(*)(int)))(int);
+
+typedef void(*pfun_t)(int);//将void (*)(int)类型重新定义为pfun_t
+pfun_t signal(int, pfun_t);
+
+
+int ADD(int x, int y)
+{
+	int z = 0;
+	z = x + y;
+	return z;
+}
+
+int main()
+{
+	int a = 10;
+	int b = 20;
+	int (*p)(int, int) = ADD;//&ADD相同
+	printf("%d\n", (p)(2, 3));
+	printf("%d\n", (*p)(2, 3));
+	//printf("%d\n", (**p)(2, 3));
+	//printf("%d\n", (***p)(2, 3));
+	return 0;
+}
