@@ -1,0 +1,30 @@
+int main()
+{
+	int arr[10] = { 0 };//数组
+	int(*p)[10] = &arr;//数组指针
+
+	int (*pf)(int, int);//函数指针
+	int (*pfarr[4])(int, int) = { pf };//函数指针数组,里面元素为函数指针pf
+	int (*(*ppfarr)[4])(int, int) = &pfarr;//指向函数指针数组的指针
+	//是一个名为ppfarr的指针，指向一个名为pfarr的数组，该数组有4个元素，每个元素类型为函数指针int(*  )(int,int)
+	//每个元素指针指向的是函数，此函数参数，返回值都是int
+	return 0;
+}
+
+
+
+void print(const char* str)
+{
+	printf("hehe--%s\n", str);
+}
+
+void test(void (*p)(const char*))
+{
+	printf("test\n");
+	p("bit");
+}
+int main()
+{
+	test(print);//回调函数
+	return 0;
+}
