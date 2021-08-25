@@ -1,0 +1,37 @@
+int main()
+{
+	//int a[] = { 1,2,3,4 };
+	//printf("%d\n", sizeof(a));//16
+	//printf("%d\n", sizeof(a+0));//"a+0"并非数组名，而是首元素地址,4
+	//printf("%d\n", sizeof(*a));//首元素地址，4
+	//printf("%d\n", sizeof(a+1));//首元素后面一个元素的地址，4
+	//printf("%d\n", sizeof(a[1]));//下标为1的元素，4
+	//printf("%d\n", sizeof(&a));//整个数组的地址（指针），4
+	//printf("%d\n", sizeof(*&a));//解引用整个数组的指针，即为整个数组，16
+	//printf("%d\n", sizeof(&a+1));//数组后之外一个元素的地址，4
+	//printf("%d\n", sizeof(&a[0]));//数组首元素的地址的大小，4
+	//printf("%d\n", sizeof(&a[0]+1));//首元素后面一个元素的地址，4
+
+
+
+	//char arr[] = { 'a','b','c','d','e','f' };
+	//printf("%d\n", sizeof(arr));//数组大小，6
+	//printf("%d\n", sizeof(arr+0));//首元素地址，4
+	//printf("%d\n", sizeof(*arr));//首元素，1
+	//printf("%d\n", sizeof(arr[1]));//下标为1的元素，1
+	//printf("%d\n", sizeof(&arr));//整个数组的地址，4
+	//printf("%d\n", sizeof(&arr+1));//数组后之外一个位置的地址，4
+	//printf("%d\n", sizeof(&arr[0]+1));//首元素后面一个元素的地址，4
+
+
+
+	// char arr[] = { 'a','b','c','d','e','f' };
+	//printf("%d\n", strlen(arr));//随机值，数组没有“\0”
+	//printf("%d\n", strlen(arr+0));//随机值，首元素地址内找0
+	////printf("%d\n", strlen(*arr));//'a',非法访问
+	////printf("%d\n", strlen(arr[1]));//'b',非法访问
+	////printf("%d\n", strlen(& arr));//整个数组的地址找\0，随机值
+	////printf("%d\n", strlen(&arr + 1));//随机值
+	//printf("%d\n", strlen(&arr[0] + 1));//'b'的地址，随机值
+	return 0;
+}
