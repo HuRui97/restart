@@ -1,0 +1,75 @@
+struct S1
+{
+	char c1;
+	int a;
+	//对齐数4，存放在结构体变量偏移量4的地址处（对齐数整数倍）
+	char c2;
+	//总大小为最大对齐数（4）的整数倍
+};
+//1个，空3个，4个，1个，（9个字节，补齐至12个）
+
+struct S2
+{
+	char c1;
+	char c2;
+	//对齐数1
+	int a;
+	//对齐数4，存放在结构体变量偏移量4的地址处（对齐数整数倍）
+	//1个，1个，空2个，4个（8个，最大对齐数4的2倍，不用补齐）
+};
+
+int main()
+{
+	struct S1 s1 = { 0 };
+	printf("%d\n", sizeof(s1));
+
+	struct S2 s2 = { 0 };
+	printf("%d\n", sizeof(s2));
+
+	return 0;
+}
+
+
+
+
+struct S3
+{
+	double d;
+	char c;
+	int i;
+};//16
+
+
+struct S4
+{
+	char c1;
+	struct S3 s3;//16
+	double d;
+};//32
+
+int main()
+{
+	printf("%d\n", sizeof(struct S4));
+	return 0;
+}
+
+
+
+#pragma pack(4)
+//设置默认对齐数为4
+
+struct S
+{
+	char c1;
+	double d;
+};
+
+#pragma pack()
+//取消设置的默认对齐数
+
+int main()
+{
+	struct S s;
+	printf( "%d\n",sizeof(s) );
+	return 0;
+}
