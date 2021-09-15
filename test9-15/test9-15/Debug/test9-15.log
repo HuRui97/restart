@@ -1,0 +1,4 @@
+﻿  test.c
+D:\新建文件夹\练习\test9-15\test9-15\test.c(70,27): warning C4013: “malloc”未定义；假设外部返回 int
+D:\新建文件夹\练习\test9-15\test9-15\test.c(72,6): warning C4013: “free”未定义；假设外部返回 int
+  test9-15.vcxproj -> D:\新建文件夹\练习\test9-15\Debug\test9-15.exe
