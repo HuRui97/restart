@@ -1,0 +1,7 @@
+﻿  test.c
+D:\新建文件夹\练习\test9-16\test9-16\test.c(60,35): warning C4013: “malloc”未定义；假设外部返回 int
+D:\新建文件夹\练习\test9-16\test9-16\test.c(61,35): warning C4047: “=”:“int *”与“int”的间接级别不同
+D:\新建文件夹\练习\test9-16\test9-16\test.c(71,17): warning C4013: “realloc”未定义；假设外部返回 int
+D:\新建文件夹\练习\test9-16\test9-16\test.c(84,6): warning C4013: “free”未定义；假设外部返回 int
+D:\新建文件夹\练习\test9-16\test9-16\test.c(71,1): warning C4047: “初始化”:“int *”与“int”的间接级别不同
+  test9-16.vcxproj -> D:\新建文件夹\练习\test9-16\Debug\test9-16.exe
