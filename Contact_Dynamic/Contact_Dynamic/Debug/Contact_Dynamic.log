@@ -1,0 +1,6 @@
+﻿  Contact.c
+D:\新建文件夹\练习\Contact_Dynamic\Contact_Dynamic\Contact.c(6,64): warning C4133: “=”: 从“Peoinfo *”到“PeoInfo *”的类型不兼容
+D:\新建文件夹\练习\Contact_Dynamic\Contact_Dynamic\Contact.c(23,18): warning C4133: “=”: 从“Peoinfo *”到“PeoInfo *”的类型不兼容
+  test.c
+  正在生成代码...
+  Contact_Dynamic.vcxproj -> D:\新建文件夹\练习\Contact_Dynamic\Debug\Contact_Dynamic.exe
