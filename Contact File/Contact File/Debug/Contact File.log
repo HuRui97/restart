@@ -1,0 +1,6 @@
+﻿  Contact.c
+D:\新建文件夹\练习\Contact File\Contact File\Contact.c(6,64): warning C4133: “=”: 从“Peoinfo *”到“PeoInfo *”的类型不兼容
+D:\新建文件夹\练习\Contact File\Contact File\Contact.c(50,18): warning C4133: “=”: 从“Peoinfo *”到“PeoInfo *”的类型不兼容
+  test.c
+  正在生成代码...
+  Contact File.vcxproj -> D:\新建文件夹\练习\Contact File\Debug\Contact File.exe
