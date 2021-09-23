@@ -1,0 +1,59 @@
+//int main()
+//{
+//	int a = 10;
+//	int b = a + 1;
+//	int b = ++a;
+//	//副作用即为a也变成11
+//
+//	return 0;
+//}
+
+
+//#define MAX(X,Y) ((X)>(Y)?(X):(Y))
+//int main()
+//{
+//	int a = 10;
+//	int b = 11;
+//	int max = MAX(a++, b++);
+//	//int max=((a++)>(b++)?(a++):(b++))
+//	//a,b各自增一次，作为max的b再自增一次
+//	printf("%d\n", max);//12
+//	printf("%d %d\n", a, b);//11,13
+//	return 0;
+//}
+
+
+//#define SIZEOF(type) sizeof(type)
+//
+//int main()
+//{
+//	int ret = SIZEOF(int);
+//	//int ret=sieof(int);
+//	printf("%d\n", ret);
+//	return 0;
+//}
+
+
+
+//#define MALLOC(num,type) (type*)malloc(num*sizeof(type))
+//
+//int main()
+//{
+//	//int* p=(int*)malloc(10 * sizeof(int));
+//	int* p=MALLOC(10, int);
+//	return 0;
+//}
+
+
+
+//#define MAX 100
+//
+//int main()
+//{
+//	printf("MAX=%d\n", MAX);
+//#undef MAX
+//	printf("MAX=%d\n", MAX);
+//	//未定义标识符MAX
+//	return 0;
+//}
+
