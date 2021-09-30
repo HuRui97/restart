@@ -1,0 +1,73 @@
+//int main()
+//{
+//	char c1 = 'C', c2 = 'h', c3 = 'i', c4 = 'n', c5 = 'a';
+//	c1 = c1 = 4;
+//	c2 = c2 + 4;
+//	c3 = c3 + 4;
+//	c4 = c4 + 4;
+//	c5 = c5 + 4;
+//	putchar(c1);
+//	putchar(c2);
+//	putchar(c3);
+//	putchar(c4);
+//	putchar(c5);
+//	putchar('\n');
+//	return 0;
+//}
+
+
+
+
+//int main()
+//{
+//	int c1, c2;
+//	c1 = getchar();
+//	c2 = getchar();
+//	putchar(c1);
+//	putchar(c2);
+//	printf("\n");
+//	printf("%c%c\n", c1, c2);
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	float a, b;
+//	scanf_s("%f", &a);
+//	if (a >= 1000 || a < 0)
+//	{
+//		printf("请输入小于1000的正整数\n");
+//		scanf_s("%f", &a);
+//		b = sqrt(a);
+//	}
+//	else
+//	{
+//		b = sqrt(a);
+//	}
+//	printf("a=%f\nb=%f\n", a, b);
+//	return 0;
+//}
+
+
+//
+//int main()
+//{
+//	int x, y;
+//	scanf("%d", &x);
+//	if (x < 1)
+//	{
+//		y = x;
+//	}
+//	else if (1 <= x && x < 10)
+//	{
+//		y = 2 * x - 1;
+//	}
+//	else
+//	{
+//		y = 3 * x - 11;
+//	}
+//	printf("y=%d\n", y);
+//	return 0;
+//}
