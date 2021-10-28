@@ -1,0 +1,3 @@
+﻿  practice.c
+D:\新建文件夹\刷题\practice10-27\practice10-27\practice.c(98,1): warning C4305: “初始化”: 从“double”到“float”截断
+  practice10-27.vcxproj -> D:\新建文件夹\刷题\practice10-27\Debug\practice10-27.exe
