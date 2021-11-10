@@ -1,0 +1,3 @@
+﻿  practice.c
+D:\新建文件夹\刷题\practice11-8\practice11-8\practice.c(24,18): warning C4101: “n”: 未引用的局部变量
+  practice11-8.vcxproj -> D:\新建文件夹\刷题\practice11-8\Debug\practice11-8.exe
